@@ -40,29 +40,29 @@ print("Size :", len(stack))
 Stack and stack operation
 ```stack = []```
 
-Push
+### Push
 ```stack.append('A')
 stack.append('B')
 stack.append('C')
 print("Stack: ", stack)
 ```
 
-Pop
+### Pop
 ```element = stack.pop()
 print("Pop: ", element)
 ```
 
-Peek 
+### Peek 
 ```topElement = stack[-1]
 print("Peek: ", topElement)
 ```
 
-isEmpty
+### isEmpty
 ```isEmpty = not bool(stack)
 print("isEmpty: ", isEmpty)
 ```
 
-Size
+### Size
 ```print("Size :", len(stack))```
 
 
