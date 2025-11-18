@@ -97,11 +97,12 @@ len(stack)
 
 
 # Hasil Eksekusi
-Stack: ['X', 'Y', 'Z']
+```Stack: ['X', 'Y', 'Z']
 Pop: Z
 Peek: Y
 isEmpty: False
 Size: 2
+```
 
 
 # Kesimpulan
