@@ -8,7 +8,7 @@ Implementasi struktur data Stack dan Queue menggunakan tipe data list Python san
 # STACK
 Stack adalah struktur data linier yang menerapkan prinsip LIFO (Last-In, First-Out). 
 Artinya elemen yang terakhir dimasukkan ke dalam tumpukan adalah elemen pertama yang akan dikeluarkan.
-# Kode Program Stack
+
 # Stack and stack operation
 ```stack = []```
 
@@ -121,7 +121,6 @@ Size: 2
 Antrian adalah struktur data linier yang menerapkan prinsip FIFO (First-In, First-Out).
 Artinya elemen yang pertama dimasukkan ke dalam antrian adalah elemen pertama yang akan dikeluarkan.
 
-# Kode Program Queue
 # Creating queue and Queue Operations
 ```queue = []```
 
