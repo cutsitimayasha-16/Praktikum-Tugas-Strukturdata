@@ -9,34 +9,34 @@ Implementasi struktur data Stack dan Queue menggunakan tipe data list Python san
 Stack adalah struktur data linier yang menerapkan prinsip LIFO (Last-In, First-Out). 
 Artinya elemen yang terakhir dimasukkan ke dalam tumpukan adalah elemen pertama yang akan dikeluarkan.
 # Kode Program Stack
+# Stack and stack operation
+```stack = []```
 
-```python
-# Membuat stack kosong
-stack = []
-
-# Menambahkan elemen ke stack (push)
-stack.append('X')
-stack.append('Y')
-stack.append('Z')
-print("Stack:", stack)
-
-# Menghapus elemen paling atas (pop)
-topElement = stack.pop()
-print("Pop:", topElement)
-
-# Melihat elemen paling atas tanpa menghapus (peek)
-peekElement = stack[-1]
-print("Peek:", peekElement)
-
-# Mengecek apakah stack kosong
-isEmpty = not bool(stack)
-print("isEmpty:", isEmpty)
-
-# Menghitung jumlah elemen dalam stack
-print("Size:", len(stack))
+# Push
+```stack.append('A')
+stack.append('B')
+stack.append('C')
+print("Stack: ", stack)
 ```
 
----
+# Pop
+```element = stack.pop()
+print("Pop: ", element)
+```
+
+# Peek 
+```topElement = stack[-1]
+print("Peek: ", topElement)
+```
+
+# isEmpty
+```isEmpty = not bool(stack)
+print("isEmpty: ", isEmpty)
+```
+
+# Size
+```print("Size :", len(stack))```
+
 
 # Penjelasan Stack
 
@@ -122,34 +122,33 @@ Antrian adalah struktur data linier yang menerapkan prinsip FIFO (First-In, Firs
 Artinya elemen yang pertama dimasukkan ke dalam antrian adalah elemen pertama yang akan dikeluarkan.
 
 # Kode Program Queue
+# Creating queue and Queue Operations
+```queue = []```
 
-```python
-# Membuat antrian kosong
-queue = []
-
-# Menambahkan elemen ke antrian (enqueue)
-queue.append('A')
+# Enqueue
+```queue.append('A')
 queue.append('B')
 queue.append('C')
-print("Queue:", queue)
-
-# Mengambil elemen paling depan (dequeue)
-element = queue.pop(0)
-print("Dequeue:", element)
-
-# Melihat elemen terdepan tanpa menghapus (peek)
-frontElement = queue[0]
-print("Peek:", frontElement)
-
-# Mengecek apakah queue kosong
-isEmpty = not bool(queue)
-print("isEmpty:", isEmpty)
-
-# Menghitung jumlah elemen di dalam queue
-print("Size:", len(queue))
+print("Queue: ", queue)
 ```
 
----
+# Dequeue
+```element = queue.pop(0)
+print("Dequeue: ", element)
+```
+
+# Peek
+```frontElement = queue[0]
+print("Peek: ", frontElement)
+```
+
+# isEmpty
+```isEmpty = not bool(queue)
+print("isEmpty: ", isEmpty)
+```
+
+# Size
+```print("Size: ", len(queue))```
 
 # Penjelasan Queue
 
