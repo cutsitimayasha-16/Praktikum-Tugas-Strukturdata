@@ -63,8 +63,7 @@ print("isEmpty: ", isEmpty)
 ```
 
 Size
-```print("Size :", len(stack))
-```
+```print("Size :", len(stack))```
 
 
 # Penjelasan Stack
@@ -151,32 +150,60 @@ Size: 2
 Antrian adalah struktur data linier yang menerapkan prinsip FIFO (First-In, First-Out).
 Artinya elemen yang pertama dimasukkan ke dalam antrian adalah elemen pertama yang akan dikeluarkan.
 
+# KODE PROGRAM MENGGUNAKAN QUEUE:
+```
+#Creating queue and Queue Operations
+
+queue = []
+
+# Enqueue
+queue.append('A')
+queue.append('B')
+queue.append('C')
+print("Queue: ", queue)
+
+# Dequeue
+element = queue.pop(0)
+print("Dequeue: ", element)
+
+# Peek
+frontElement = queue[0]
+print("Peek: ", frontElement)
+
+# isEmpty
+isEmpty = not bool(queue)
+print("isEmpty: ", isEmpty)
+
+# Size
+print("Size: ", len(queue))
+
+```
 # Creating queue and Queue Operations
 ```queue = []```
 
-# Enqueue
+### Enqueue
 ```queue.append('A')
 queue.append('B')
 queue.append('C')
 print("Queue: ", queue)
 ```
 
-# Dequeue
+###  Dequeue
 ```element = queue.pop(0)
 print("Dequeue: ", element)
 ```
 
-# Peek
+### Peek
 ```frontElement = queue[0]
 print("Peek: ", frontElement)
 ```
 
-# isEmpty
+### isEmpty
 ```isEmpty = not bool(queue)
 print("isEmpty: ", isEmpty)
 ```
 
-# Size
+### Size
 ```print("Size: ", len(queue))```
 
 # Penjelasan Queue
