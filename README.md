@@ -9,6 +9,34 @@ Implementasi struktur data Stack dan Queue menggunakan tipe data list Python san
 Stack adalah struktur data linier yang menerapkan prinsip LIFO (Last-In, First-Out). 
 Artinya elemen yang terakhir dimasukkan ke dalam tumpukan adalah elemen pertama yang akan dikeluarkan.
 
+KODE PROGRAM MENGGUNAKAN STACK:
+```
+#Stack and stack operation
+stack = []
+
+# Push
+stack.append('A')
+stack.append('B')
+stack.append('C')
+print("Stack: ", stack)
+
+# Pop
+element = stack.pop()
+print("Pop: ", element)
+
+# Peek 
+topElement = stack[-1]
+print("Peek: ", topElement)
+
+# isEmpty
+isEmpty = not bool(stack)
+print("isEmpty: ", isEmpty)
+
+# Size
+print("Size :", len(stack))
+
+```
+
 # Stack and stack operation
 ```stack = []```
 
