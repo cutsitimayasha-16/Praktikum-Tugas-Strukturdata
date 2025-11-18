@@ -63,7 +63,8 @@ print("isEmpty: ", isEmpty)
 ```
 
 Size
-```print("Size :", len(stack))```
+```print("Size :", len(stack))
+```
 
 
 # Penjelasan Stack
